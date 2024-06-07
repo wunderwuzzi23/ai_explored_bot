@@ -34,7 +34,7 @@ def post_image(client, message, image_path):
 
 def get_image_generation_prompt(todays_date):
     system_prompt = f"Today is {todays_date}, the date format is YYYY-MM-dd. You are a historian and concise AI prompting expert for DALLE-3."
-    prompt = f"""Create an image generation prompt for the most significant historical event for today's date: {todays_date}. 
+    prompt = f"""Create an image generation prompt for the most significant historical event for precisely and only today's date: {todays_date}. 
 Research details and significance the event, and ensure the year of the event is clearly visible in the image. 
 Make it epic, be historically accurate."""
 
